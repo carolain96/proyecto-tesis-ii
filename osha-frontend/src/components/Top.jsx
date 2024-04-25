@@ -55,7 +55,7 @@ function Top(){
           <span className="pl-1">
             <a href="" className="flex flex-row gap-1 items-center text-sm">
               <HiOutlineMail color='white' />
-              <span className="text-white">info@osha.es</span>
+              <span className="text-white">info@arenas.es</span>
             </a>
           </span>
         </div>

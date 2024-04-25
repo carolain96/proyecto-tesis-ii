@@ -5,7 +5,7 @@ function Programas() {
   return (
     <div className="px-10 py-10 w-full h-full">
       <div className="flex flex-col gap-5">
-        <h3 className='text-primary text-lg'>Programas Matriculados</h3>
+        <h3 className='text-primary text-lg'>Juridisprudencia</h3>
         <CardPrograma/>
         <CardPrograma/>
       </div>
@@ -24,13 +24,13 @@ function CardPrograma() {
         </div>
         {/* Contenido */}
         <div className='p-3 flex-1'>
-          <p className='text-grisOscuro text-lg'> Desarrollo nombre del programa</p>
+          <p className='text-grisOscuro text-lg'> Nombre del programa</p>
           <p className='text-primary'> Código </p>
         </div>
         {/* Opciones */}
         <div className='flex flex-col gap-1 p-2'>
           <button className='p-2 bg-azulMedio rounded-lg text-sm text-white text-xs'>Ir al programa</button>
-          <button className='p-2 bg-green rounded-lg text-sm text-white text-xs'>Ver notas</button>
+          <button className='p-2 bg-green rounded-lg text-sm text-white text-xs'>Ver</button>
         </div>
       </div>
     </div>

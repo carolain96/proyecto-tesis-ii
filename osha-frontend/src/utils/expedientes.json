@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "nombre": "Expediente 1",
+      "descripcion": "Descripción del expediente 1."
+    },
+    {
+      "id": 2,
+      "nombre": "Expediente 2",
+      "descripcion": "Descripción del expediente 2."
+    },
+    {
+      "id": 3,
+      "nombre": "Expediente 3",
+      "descripcion": "Descripción del expediente 3."
+    }
+  ]

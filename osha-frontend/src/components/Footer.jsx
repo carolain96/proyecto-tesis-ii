@@ -11,7 +11,7 @@ function Footer(){
                   <h1 className="text-white font-extrabold">
                     <img
                       className="h-10 w-auto"
-                      src="/src/assets/logo/logoOsha.png"
+                      src="/src/assets/logo/logoProyectos.png"
                       alt="Osha Institute"
                     />
                   </h1>

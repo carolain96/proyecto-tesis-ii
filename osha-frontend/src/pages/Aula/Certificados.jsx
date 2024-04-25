@@ -6,7 +6,7 @@ import { HoverEffectCard, Section1, Card, Card2, Card3 } from '../../components/
 function Certificados() {
   return (
     <div className="px-10 py-10 w-full h-full bg-grisFondo flex flex-col gap-5">
-      <h3 className='text-primary'>Descargue sus credenciales</h3>
+      <h3 className='text-primary'>Credenciales</h3>
       <div className='flex flex-col gap-5'>
         <Certificado />
         <Certificado />

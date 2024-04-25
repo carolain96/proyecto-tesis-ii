@@ -28,7 +28,7 @@ function Header() {
   return (
     <div className='w-full bg-white shadow-md px-5 py-5'>
       <div className='flex flex-row'>
-        <img src="/src/assets/logo/logoOsha.png" alt="logo osha" className='w-50 h-10' />
+        <img src="/src/assets/logo/logoProyectos.png" alt="logo osha" className='w-50 h-10' />
 
       </div>
     </div>

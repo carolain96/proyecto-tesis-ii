@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Ley de Contratos",
+      "description": "Regula las obligaciones derivadas de los contratos entre personas o entidades."
+    },
+    {
+      "id": 2,
+      "title": "Ley de Propiedad Intelectual",
+      "description": "Protege los derechos de propiedad intelectual, incluyendo patentes, derechos de autor y marcas registradas."
+    },
+    {
+      "id": 3,
+      "title": "Ley de Protección de Datos",
+      "description": "Establece normas para el tratamiento y protección de datos personales."
+    }
+  ]

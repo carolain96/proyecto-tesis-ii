@@ -36,7 +36,7 @@ function Login() {
 
   // Redirige a la págin '/dashboard' si el usuario está autentificado
   if (loggedIn) {
-    return <Navigate to="/aulaosha" />
+    return <Navigate to="/estudio" />
   }
   
   return (
@@ -46,7 +46,7 @@ function Login() {
       <div className='flex flex-row px-5 py-5 bg-white shadow-lg justify-between'>
         <img
           className="h-10 w-auto"
-          src="/src/assets/logo/logoOsha.png"
+          src="/src/assets/logo/logoProyectos.png"
           alt="Osha Institute"
         />        
         <div className='flex flex-row gap-1'>
@@ -60,7 +60,7 @@ function Login() {
       </div>
 
       { /* Formulario - imagen */}
-      <div className='flex flex-col md:flex-row justify-center items-center mt-10'>
+      <div className='flex flex-col md:flex-row gap-20 justify-center items-center mt-10'>
         <div className="py-10 px-5 flex flex-col justify-center">
           <div className="relative py-3 sm:max-w-xl sm:mx-auto">
             <div
@@ -69,7 +69,7 @@ function Login() {
             <div className="relative px-4 py-10 bg-white shadow-lg rounded-2xl sm:p-10">
               <div className="flex flex-col gap-4">
                 <h2 className="text-primary text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-                  Osha Institute
+                  Arenas Martinez & Asociados
                 </h2>
                 <form className="space-y-6" action="#" method="POST" onSubmit={onSubmit}>
                   <div>
@@ -128,14 +128,12 @@ function Login() {
           </div>
         </div>
         <div className='flex flex-col gap-15 justify-center items-center'>
-          <span className='hidden sm:block'> <img className='item-center' src="/src/assets/logo/logoOsha.png" alt="Osha Institute" style={{width:200, height:80}}/> </span>
-          <span className='hidden sm:block'> <img className='' src="/src/assets/images/login.png" alt="person" style={{width:450, height:300}}/> </span>
+          <span className='hidden sm:block'> <img className='item-center' src="/src/assets/logo/logoProyectos.png" alt="Osha Institute" style={{width:280, height:300}}/> </span>
         </div>
       </div>
 
       {/* Footer logos */}
       <div className='flex p-2'>
-        <img src="/src/assets/logo/logoAccreditedEducation.png" alt="Accredited Education" className='w-20'/>
       </div>      
     </div>
   )
