@@ -1,3 +1,7 @@
+
+
+
+
 import React from 'react';
 import { Table } from '../../components/Table/Table';
 import examenColumns from '../../utils/Columns/examenColumns';
